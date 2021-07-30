@@ -1,0 +1,53 @@
+{
+  "project_info": {
+
+    "project_number": "868178443343",
+    "project_id": "gym-bud-72c69",
+    "storage_bucket": "gym-bud-72c69.appspot.com"
+
+  },
+  "client": [
+    {
+      "client_info": {
+
+        "mobilesdk_app_id": "1:868178443343:android:7f5ba35969bc9b947fbe3a",
+
+
+        "android_client_info": {
+          "package_name": "com.example.gymbud"
+        }
+      },
+      "oauth_client": [
+        {
+
+          "client_id": "868178443343-h392fu5ngr8vrtv4bjac731iscnsh905.apps.googleusercontent.com",
+
+
+
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPNpF2t3_z7tzW6xkd9aa0Q4pImPOpc1M"
+
+
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+
+              "client_id": "868178443343-h392fu5ngr8vrtv4bjac731iscnsh905.apps.googleusercontent.com",
+
+
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
