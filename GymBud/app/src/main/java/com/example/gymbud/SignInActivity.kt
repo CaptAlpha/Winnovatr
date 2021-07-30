@@ -95,8 +95,12 @@ class SignInActivity : AppCompatActivity() {
 
     private fun updateUI(firebaseUser: FirebaseUser?) {
         if (firebaseUser != null) {
-
             val mainActivityIntent = Intent(this, MainActivity::class.java)
+            mainActivityIntent.putExtra("USER_IMAGE", firebaseUser.photoUrl.toString());
+            val bundle = Bundle()
+            bundle.putString("USER_NAME", firebaseUser.displayName)
+            bundle.putString("USER_ID", firebaseUser.uid)
+            mainActivityIntent.putExtras(bundle)
             startActivity(mainActivityIntent)
             finish()
         } else {
